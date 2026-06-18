@@ -10,7 +10,7 @@ Flow(flow.team) Open API / MCP를 활용해 일상 업무를 거드는 개인 �
   "오늘 먼저 할 일"을 정리하고 회의 준비를 돕는 **데일리 비서** 루틴.
 - [`agents/morning-briefing`](./agents/morning-briefing) — 평일 아침 PM2팀 방에
   **명언 + 주요 뉴스 요약**을 자동 게시하는 **모닝 브리핑** 루틴(트라이얼: 평일 ~2026-06-26).
-- [`agents/planning-clarifier`](./agents/planning-clarifier) — `[PM] 엔터 기획 요청`에
-  **새로 올라온 업무**의 요건을 읽고 기획 사전 확인 질문을 **댓글로** 남기는 봇(새 글만, 2026-06-18~).
+- [`agents/intake-clarifier`](./agents/intake-clarifier) — `[PM] 엔터 기획 요청`의 요청을
+  시니어 기획자 관점으로 읽고 **개발 착수용 "되묻기 질문"을 댓글 초안으로** 만드는 서브에이전트(읽기 전용·초안만).
 
 자세한 사용/설정은 각 에이전트 폴더의 `README.md` · `SETUP.md` 참고.
